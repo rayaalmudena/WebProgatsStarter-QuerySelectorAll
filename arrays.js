@@ -52,5 +52,5 @@ console.log(totalPrice);
 let inactiveMembers = ["patricia", "veronica"];
 for (let index = 0; index < inactiveMembers.length; index++) {
     document.querySelector(".card__"+inactiveMembers[index]).classList.add("members__disabled");
-    console.log(inactive);    
+    console.log(inactiveMembers);    
 }
